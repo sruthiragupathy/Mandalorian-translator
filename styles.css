@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+:root{
+    --light-gray:#F9FAFB;
+    --dark-gray:#1F2937;
+    --white:#fff;
+
+}
+
+body{
+    background:url("star-war.jpeg");
+    background-size:cover;
+    height:80vh;
+    color:var(--light-gray);
+
+}
+
+.nav{
+    padding:1.5rem;
+    text-align : center;
+    background-color:var(--dark-gray);
+}
+
+.mandalorian{
+    max-width:650px;
+    height:27rem;
+    margin:auto;
+    padding:2.5rem 0.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    z-index:0;
+}
+
+#translateBtn{
+    display: block;
+    padding:0.5rem 1rem;
+    background:var(--dark-gray);
+
+   
+    color:var(--white);
+    border:1px solid var(--light-gray);
+    
+
+}
+
+#translateBtn:hover{
+    color:var(--dark-gray);
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+
+    
+    
+}
+
+p{
+    justify-content: flex-start;
+    color:var(--white);
+    
+
+}
+
+#outputTxt,#inputTxt{
+    padding:1rem;
+    border: 1px solid black;
+    width:100%;
+    color:var(--dark-gray);
+    min-height:8rem;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    /* background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);  */
+    
+}
+
+footer{
+    
+    bottom:0;
+    position:absolute;
+    width:100%;
+    background:var(--dark-gray);
+    text-align:center;
+    padding:1rem;
+    line-height: 1.5rem;
+}
