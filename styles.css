@@ -11,7 +11,7 @@
     --light-gray:#F9FAFB;
     --dark-gray:#1F2937;
     --white:#fff;
-    background:var(--dark-gray);
+    
 
 }
 
@@ -90,3 +90,4 @@ footer{
     padding:1rem;
     line-height: 1.5rem;
 }
+
