@@ -4,16 +4,19 @@
     box-sizing: border-box;
     margin:0px;
     font-family: 'Comic Sans MS', cursive;
+    
 }
 
 :root{
     --light-gray:#F9FAFB;
     --dark-gray:#1F2937;
     --white:#fff;
+    background:var(--dark-gray);
 
 }
 
 body{
+
     background:url("star-war.jpeg");
     background-size:cover;
     height:80vh;
