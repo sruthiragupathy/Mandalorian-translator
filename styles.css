@@ -16,8 +16,8 @@
 }
 
 body{
-
-    background:url("star-war.jpeg");
+    background-color: var(--dark-gray);
+    background-image:url("star-war.jpeg");
     background-size:cover;
     height:80vh;
     color:var(--light-gray);
