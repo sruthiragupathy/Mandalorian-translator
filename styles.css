@@ -75,8 +75,9 @@ p{
     width:100%;
     color:var(--dark-gray);
     min-height:8rem;
+    font-size:1.1rem;
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-    /* background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);  */
+    
     
 }
 
